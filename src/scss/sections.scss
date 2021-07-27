@@ -1,0 +1,151 @@
+// Sections General styling
+//
+.section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  .section-title {
+    font-family: $font-family-base;
+    margin-bottom: 0;
+    font-size: 26px;
+    line-height: 1;
+  }
+  .section-summary { }
+  .section-header {
+    margin-bottom: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &.has-background {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  &.no-padding{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+
+  @include media-breakpoint-up(md){
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}
+
+// Section sizes
+//
+.section-lg {
+
+}
+
+
+
+// Specific sections
+// ==================================================================
+
+// Homepage sections
+//
+
+.section-hero {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 0;
+  
+  .container-cover{
+    @include media-breakpoint-down(sm){
+      position: relative;
+      background: $blue-emphasis;
+    }
+  }
+
+
+
+}
+
+// Hero Slide
+//
+.hero-slide {
+
+  .hero-content{
+
+    padding: 20px 0;
+    > *{
+      &:last-child{
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+
+  .media {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-heading {
+    font-size: 26px;
+    letter-spacing: -0.025rem;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .hero-summary {
+    font-size: 0.9375rem;
+    line-height: 1.3125rem;
+    margin-bottom: 1.25rem;
+  }
+
+
+  @include media-breakpoint-up(md) {
+
+    .hero-heading {
+      font-size: 44px;
+      line-height: 54px;
+      letter-spacing: 0;
+      margin-bottom: 15px;
+    }
+
+    .hero-summary {
+      font-size: 18px;
+      line-height: 29px;
+      margin-bottom: 25px;
+    }
+
+    .hero-content{
+      padding-bottom: 45px;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .hero-content{
+      width: 75%;
+    }
+  }
+}
+
+
+// Homepage - Featured section
+//-----------------------------------
+
+.section-featured {
+
+  @include media-breakpoint-up(lg) {
+  }
+
+  @include media-breakpoint-up(xl) {
+  }
+}
+
+// Homepage -section News
+// ---------------------------------
+
+.section-news {
+
+}
+

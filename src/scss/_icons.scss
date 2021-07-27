@@ -1,0 +1,159 @@
+@import "_icons-variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?vu7wi2') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?vu7wi2') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?vu7wi2##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-checked {
+  &:before {
+    content: $icon-checked;
+  }
+}
+.icon-soup {
+  &:before {
+    content: $icon-soup;
+  }
+}
+.icon-food-and-restaurant {
+  &:before {
+    content: $icon-food-and-restaurant;
+  }
+}
+.icon-noodles {
+  &:before {
+    content: $icon-noodles;
+  }
+}
+.icon-clipboard {
+  &:before {
+    content: $icon-clipboard;
+  }
+}
+.icon-restaurant-menu {
+  &:before {
+    content: $icon-restaurant-menu;
+  }
+}
+.icon-broccoli {
+  &:before {
+    content: $icon-broccoli;
+  }
+}
+.icon-cupcake {
+  &:before {
+    content: $icon-cupcake;
+  }
+}
+.icon-french-fries {
+  &:before {
+    content: $icon-french-fries;
+  }
+}
+.icon-salad {
+  &:before {
+    content: $icon-salad;
+  }
+}
+.icon-team {
+  &:before {
+    content: $icon-team;
+  }
+}
+.icon-website {
+  &:before {
+    content: $icon-website;
+  }
+}
+.icon-education {
+  &:before {
+    content: $icon-education;
+  }
+}
+.icon-medical {
+  &:before {
+    content: $icon-medical;
+  }
+}
+.icon-network {
+  &:before {
+    content: $icon-network;
+  }
+}
+.icon-security {
+  &:before {
+    content: $icon-security;
+  }
+}
+.icon-chat {
+  &:before {
+    content: $icon-chat;
+  }
+}
+.icon-google-plus-g-brands {
+  &:before {
+    content: $icon-google-plus-g-brands;
+  }
+}
+.icon-share-alt-solid {
+  &:before {
+    content: $icon-share-alt-solid;
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook;
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram;
+  }
+}
+.icon-youtube {
+  &:before {
+    content: $icon-youtube;
+  }
+}
+.icon-linkedin-in {
+  &:before {
+    content: $icon-linkedin-in;
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter;
+  }
+}
+.icon-pinterest-p {
+  &:before {
+    content: $icon-pinterest-p;
+  }
+}
+.icon-flickr {
+  &:before {
+    content: $icon-flickr;
+  }
+}

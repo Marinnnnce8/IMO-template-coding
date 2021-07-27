@@ -1,0 +1,26 @@
+
+
+// Customize Bootstrap variables.
+//
+@import "_theme_variables";
+
+
+
+// Required Bootstrap
+//
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+
+
+// Optional: Filtered Bootstrap Components
+//
+@import "_custom-bootstrap";
+
+
+
+// Theme specific SCSS - All elements that are not covered with Bootstrap
+//
+@import "_theme";
+

@@ -1,0 +1,55 @@
+label{
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.form-text{
+  font-size: 13px;
+  margin-top: 0;
+}
+
+.form-control{
+  height: 1.375rem;
+}
+.form-control-sm{
+  height: 1.875rem;
+}
+.form-control-lg{
+  height: 2.5rem;
+}
+.form-control-xl{
+  height: 3.5rem;
+  font-size: 1.375rem;
+}
+
+textarea.form-control{
+  min-height: 12rem;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.form-group-search {
+  position: relative;
+  .btn {
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    height: 100%;
+    i {
+      font-size: 20px;
+    }
+  }
+
+  .form-control {
+    padding-right: 40px;
+  }
+}
+
+.form-row{
+  .form-group-search .btn{
+    right: 5px;
+  }
+}

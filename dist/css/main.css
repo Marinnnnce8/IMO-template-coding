@@ -12311,6 +12311,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .imo-forms ul:not(.pagination) li a {
   position: relative;
+  transition: .35s ease;
+  color: #3573bf;
 }
 
 .imo-forms ul:not(.pagination) li a::before, .imo-forms ul:not(.pagination) li a::after {

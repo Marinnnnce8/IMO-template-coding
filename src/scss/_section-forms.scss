@@ -275,6 +275,8 @@
 
     a {
       position: relative;
+      transition: .35s ease;
+      color: #3573bf;
 
       &::before,
       &::after {

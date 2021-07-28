@@ -152,8 +152,11 @@
     }
   }
 
-  .card-primary {
+  .card-wrapper .card-primary {
     max-width: 380px;
+  }
+
+  .card-primary {
     background-color: #2f68a1 !important;
 
     .btn-link-with-bullet {
@@ -175,6 +178,56 @@
 
     .card-body ul li {
       margin-bottom: 4px;
+    }
+  }
+
+  .accordion {
+
+    .card {
+      border-radius: 5px;
+      box-shadow: 0 0 11px 4px rgba(#000, .05);
+    }
+
+    .card .card-header,
+    .card-header {
+      padding: 0;
+      border: 0;
+
+      &::after,
+      &::before {
+        display: none;
+      }
+
+      a {
+        width: 100%;
+        color: #141624;
+        padding: 23px 65px 23px 30px;
+
+        &::before {
+          background-image: url('data:image/svg+xml,%3Csvg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"%3E%3Cpath fill="currentColor" d="M443.5 162.6l-7.1-7.1c-4.7-4.7-12.3-4.7-17 0L224 351 28.5 155.5c-4.7-4.7-12.3-4.7-17 0l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17l211 211.1c4.7 4.7 12.3 4.7 17 0l211-211.1c4.8-4.7 4.8-12.3.1-17z"%3E%3C/path%3E%3C/svg%3E');
+          right: 18px;
+          top: 50%;
+          width: 20px;
+          height: 20px;
+          transform: translateY(-50%);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-color: transparent;
+          left: auto;
+          border: 0;
+          pointer-events: none;
+          transition: .35s;
+        }
+
+        &[aria-expanded='true']::before {
+          transform: translateY(-50%) rotate(180deg);
+        }
+      }
+    }
+
+    .card-body {
+      background-color: #fff;
+      padding: 5px 20px 20px 30px;
     }
   }
 

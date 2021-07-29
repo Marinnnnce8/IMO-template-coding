@@ -538,7 +538,7 @@
   .card-img-overlay{
     background: transparent !important;
   }
-  &:hover{
+  &:hover:not(.quick-links-wrap) {
     background-color: #275787;
   }
 }

@@ -1,14 +1,7 @@
 .section-forms {
-  h1 {
-    margin-bottom: 30px;
-  }
 
   input[type='text']::placeholder {
     font-size: 16px;
-  }
-
-  .form-group-search .btn {
-    padding: 0 14px;
   }
 
   select {
@@ -137,7 +130,6 @@
   }
 
   .card-primary {
-    background-color: #2f68a1 !important;
 
     .btn-link-with-bullet {
       background-color: #4376aa;
